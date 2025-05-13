@@ -1,6 +1,6 @@
 # Record Manager Module Description
 
-This report describes the design, implementation, and testing of the Record Manager module developed for CS 525 – Advanced Database Organization (Spring 2025). The Record Manager is responsible for **managing tables with fixed schemas, supporting operations such as record insertion, deletion, update, and scanning**. It builds upon the previously implemented Storage Manager and Buffer Manager modules and includes an innovative tombstone mechanism to track deleted records without wasting disk space.
+The Record Manager is responsible for **managing tables with fixed schemas, supporting operations such as record insertion, deletion, update, and scanning**. It builds upon the previously implemented Storage Manager and Buffer Manager modules and includes an innovative tombstone mechanism to track deleted records without wasting disk space.
 
 ## Programming Language Used: C
 
@@ -241,7 +241,6 @@ assign2/
 
 ### Authors:
 
-## ADO Group No. 04:
 
 - ### Apurv Gaikwad (A20569178)
 - ### Nishant Dalvi (A20556507)
